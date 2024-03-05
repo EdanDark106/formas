@@ -1,0 +1,58 @@
+#contenedor
+{
+    width: 600px;
+    height: 2000px;
+    background-color: blueviolet;
+}
+#caja1
+{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    display: inline-block;
+    position: relative;
+    right: 200px;
+    top: 200px;
+}
+#caja2
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(43, 182, 89);
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+}
+#caja3
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(75, 41, 107);
+    display: inline-block;
+    position: fixed;
+    top: 100px;
+}
+#caja4
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(165, 89, 19);
+}
+#caja4-1
+{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    position: relative;
+    left: 50px;
+    transform: rotate(45deg);
+}
+#caja4-2
+{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 50px;
+    position: relative;
+    left: 100px;
+}
